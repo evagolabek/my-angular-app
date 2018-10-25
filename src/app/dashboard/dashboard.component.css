@@ -1,4 +1,21 @@
 .dashboard {
   display: flex;
+  align-items: center;
+  flex-direction: row;
+  /* align-content: space-around; */
   border: 3px solid red;
 }
+
+app-project-list {
+  flex-grow: 1;
+}
+
+app-customer-details {
+  flex-grow: 1;
+}
+
+app-customer-list {
+  flex-grow: 2;
+}
+
+
