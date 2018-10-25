@@ -1,0 +1,11 @@
+<div>
+  <ul>
+    <li *ngFor="let customer of customers" 
+        [class.selected]="customer === selectedCustomer"
+        (click)="onSelect(customer)"> 
+      <button>{{ customer.name }}</button>
+    </li>
+  </ul>
+
+  SELECTED CUSTOMER = {{ selectedCustomer.name }}
+</div>

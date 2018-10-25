@@ -1,0 +1,7 @@
+div {
+  border: 1px solid blue;
+}
+
+li.selected button {
+  background-color: yellow;
+}
