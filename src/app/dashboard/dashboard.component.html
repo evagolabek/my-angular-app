@@ -1,22 +1,9 @@
-<h2>My Projects</h2>
-<ul>
-  <li *ngFor="let project of projects"
-    [class.selected]="project === selectedProject"
-    (click)="onSelect(project)">
-    <span class="badge">{{project.id}}</span> {{project.name}}
-  </li>
-</ul>
+<div class='dashboard'>
 
-
+<app-project-list></app-project-list>
 
 <app-customer-list></app-customer-list>
 
-
-
 <app-customer-details></app-customer-details>
 
-<!-- <div class='cardList'>
-  <app-card></app-card>
-  <app-card></app-card>
-  <app-card></app-card>
-</div> -->
+</div>

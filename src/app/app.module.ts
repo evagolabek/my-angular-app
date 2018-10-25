@@ -7,7 +7,8 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { CustomerListComponent } from './customer-list/customer-list.component';
 import { CustomerDetailsComponent } from './customer-details/customer-details.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
-import { CardComponent } from './card/card.component';
+import { ProjectListComponent } from './project-list/project-list.component';
+
 
 @NgModule({
   declarations: [
@@ -15,7 +16,7 @@ import { CardComponent } from './card/card.component';
     DashboardComponent,
     CustomerListComponent,
     CustomerDetailsComponent,
-    CardComponent
+    ProjectListComponent
   ],
   imports: [
     BrowserModule,
