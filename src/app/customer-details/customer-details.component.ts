@@ -1,5 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { CUSTOMER1 } from '../mock-data'
+//import { CUSTOMER1 } from '../mock-data'
+import { IMAGES } from '../mock-data'
 
 @Component({
   selector: 'app-customer-details',
@@ -8,7 +9,9 @@ import { CUSTOMER1 } from '../mock-data'
 })
 export class CustomerDetailsComponent implements OnInit {
 
-  customer = CUSTOMER1
+  images = IMAGES 
+
+  //customer = CUSTOMER1
 
   constructor() { }
 
