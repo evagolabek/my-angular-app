@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { BrowserAnimatonModule } from '@angular/platform-browser/animations';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatToolbarModule} from '@angular/material';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -9,6 +10,7 @@ import { CustomerListComponent } from './customer-list/customer-list.component';
 import { CustomerDetailsComponent } from './customer-details/customer-details.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { ProjectListComponent } from './project-list/project-list.component';
+import { ImageListComponent } from './image-list/image-list.component';
 
 
 @NgModule({
@@ -17,13 +19,15 @@ import { ProjectListComponent } from './project-list/project-list.component';
     DashboardComponent,
     CustomerListComponent,
     CustomerDetailsComponent,
-    ProjectListComponent
+    ProjectListComponent,
+    ImageListComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FlexLayoutModule,
-    BrowserAnimatonModule
+    BrowserAnimationsModule,
+    MatToolbarModule
   ],
   providers: [],
   bootstrap: [AppComponent]

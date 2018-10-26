@@ -19,9 +19,10 @@ export const CUSTOMERS: Customer[] = [
 ];
 
 export const IMAGES: Image[] = [
-  {src: '../assets/robot.png', alt: 'robot'},
-  {src: '../assets/robot2.png', alt: 'robot2'},
-  {src: '../assets/robot3.png', alt: 'robot3'},
+  {src: "https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/8V46UZCS0V.jpg"},
+  {src: "https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/LTLE4QGRVQ.jpg"},
+  {src: "https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/R926LU1YEA.jpg"},
+  {src: "https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/U9PP3KXXY2.jpg"},
 ];
 
 

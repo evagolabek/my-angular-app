@@ -4,6 +4,7 @@
   flex-direction: row;
   /* align-content: space-around; */
   border: 3px solid red;
+  
 }
 
 app-project-list {

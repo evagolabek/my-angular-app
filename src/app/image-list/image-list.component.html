@@ -1,0 +1,9 @@
+<p>image list works</p>
+
+<div class="container" fxLayout="row" fxLayout.xs="column" fxLayoutWrap fxLayoutGap="0.5%" fxLayoutAlign="center">
+  
+    <div fxFlex="20%" *ngFor="let image of images">
+      
+      <img height="100px" width="100px" src= '{{ image.src }}' >
+    </div>
+</div>
