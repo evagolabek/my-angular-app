@@ -15,10 +15,17 @@ export class CustomerListComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    let searchText = 'joanna';
+    console.log(searchText);
+    this.search(searchText);
   }
 
   onSelect(cst: Customer): void  {
     this.selectedCustomer = cst;
   }
-  
+
+  search(input: String): void {
+    let output = this.customers.filter(x => x.name === input );
+    console.log(output)
+  } 
 }
