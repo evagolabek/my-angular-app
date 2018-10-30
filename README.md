@@ -1,4 +1,4 @@
-![screen shot 2018-10-30 at 15 37 05](https://user-images.githubusercontent.com/36426677/47726071-0a227d80-dc5a-11e8-9376-046a6a35d93a.png)
+
 
 # AngularMyApp
 
